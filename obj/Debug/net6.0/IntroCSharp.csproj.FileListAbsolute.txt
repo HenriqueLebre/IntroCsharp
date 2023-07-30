@@ -1,0 +1,5 @@
+C:\Users\Henrique Lebre\source\repos\IntroCSharp\obj\Debug\net6.0\IntroCSharp.csproj.AssemblyReference.cache
+C:\Users\Henrique Lebre\source\repos\IntroCSharp\obj\Debug\net6.0\IntroCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henrique Lebre\source\repos\IntroCSharp\obj\Debug\net6.0\IntroCSharp.AssemblyInfoInputs.cache
+C:\Users\Henrique Lebre\source\repos\IntroCSharp\obj\Debug\net6.0\IntroCSharp.AssemblyInfo.cs
+C:\Users\Henrique Lebre\source\repos\IntroCSharp\obj\Debug\net6.0\IntroCSharp.csproj.CoreCompileInputs.cache
