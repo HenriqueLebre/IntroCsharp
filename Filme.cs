@@ -1,8 +1,14 @@
 ﻿class Filme
 {
 
-    public string Nome { get; set; }
-    public string Diretor { get; set; }
+    public Filme(string diretor, string nome)
+    {
+        Diretor = diretor;
+        Nome = nome;
+    }
+
+    public string Nome { get; }
+    public string Diretor { get; }
     public int DuracaoFilme { get; set; }
     public bool Premium { get; set; }
     public string DescricaoFilme =>
