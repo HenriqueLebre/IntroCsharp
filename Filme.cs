@@ -1,16 +1,19 @@
 ﻿class Filme
 {
 
-    public string nome;
-    public string diretor;
-    public int duracaoFilme;
-    public bool Premium;
+    public string Nome { get; set; }
+    public string Diretor { get; set; }
+    public int DuracaoFilme { get; set; }
+    public bool Premium { get; set; }
+    public string DescricaoFilme =>
+        $"O Filme {Nome} foi dirigido por {Diretor}";
+
 
     public void ExibirFichaTecnica()
     {
-        Console.WriteLine($"Nome: {nome}");
-        Console.WriteLine($"diretor: {diretor}");
-        Console.WriteLine($"duracaoFilme: {duracaoFilme}");
+        Console.WriteLine($"Nome: {Nome}");
+        Console.WriteLine($"diretor: {Diretor}");
+        Console.WriteLine($"duracaoFilme: {DuracaoFilme}");
         if (Premium)
         {
             Console.WriteLine("Filme disponível no seu plano");
