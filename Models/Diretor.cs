@@ -1,7 +1,7 @@
 ﻿namespace IntroCsharp.Models;
-class Diretor
+internal class Diretor
 {
-    private List<AlbumDiretor> albums = new List<AlbumDiretor>();
+    private List<AlbumDiretor> albums = new List<AlbumDiretor>(); 
 
     public Diretor(string nome)
     {
