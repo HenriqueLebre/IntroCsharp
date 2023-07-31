@@ -1,4 +1,5 @@
-﻿class Filme
+﻿namespace IntroCsharp.Models;
+class Filme
 {
 
     public Filme(string diretor, string nome)

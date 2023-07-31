@@ -1,4 +1,5 @@
-﻿class AlbumDiretor
+﻿namespace IntroCsharp.Models;
+class AlbumDiretor
 {
     private List<Filme> filmes = new List<Filme>();
 
